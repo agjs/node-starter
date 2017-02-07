@@ -3,6 +3,8 @@ const config = require('./index');
 
 module.exports = () => {
 
+    mongoose.Promise = require('bluebird');
+
     mongoose.connect(config.MONGODB.URL);
 
     var db = mongoose.connection;
