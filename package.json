@@ -1,0 +1,28 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agjs/node-starter.git"
+  },
+  "author": "Aleksandar Grbic <agrbicpp@gmail.com> (https://codeyoufools.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agjs/node-starter/issues"
+  },
+  "homepage": "https://github.com/agjs/node-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
